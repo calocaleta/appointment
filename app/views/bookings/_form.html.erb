@@ -16,5 +16,8 @@
         <%= form.label :room, style: "display: block" %>
         <%= form.collection_select :room_id, Room.all, :id, :name %>
     </div>
-    
+
+    <div>
+        <%= form.submit%>
+    </div>
 <% end %>
